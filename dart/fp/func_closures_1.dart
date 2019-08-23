@@ -1,0 +1,11 @@
+Function multiply(int n) {
+	return (int m) => n * m;
+}
+void main() {
+	Function func = multiply(5);
+	int result1 = func(6);
+	print(result1);
+
+	int result2 = func(5);
+	print(result2);
+}
